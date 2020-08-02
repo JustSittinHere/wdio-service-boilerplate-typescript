@@ -1,0 +1,31 @@
+{
+  "name": "wdio-service-boilerplate-typescript",
+  "version": "1.0.0",
+  "description": "Boilerplate for creating wdio services in Typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "test",
+    "lint": "eslint `src/**/*.ts`",
+    "updates": "ncu",
+    "build": "rm -Rf dist && tsc",
+    "test:build": "tsc --noEmit"
+  },
+  "keywords": [
+    "wdio",
+    "service",
+    "boilerplate",
+    "typescript"
+  ],
+  "author": "JustSittinHere",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "3.7.1",
+    "@typescript-eslint/parser": "3.7.1",
+    "eslint": "7.6.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "npm-check-updates": "7.0.2",
+    "prettier": "2.0.5",
+    "typescript": "3.9.7"
+  }
+}
